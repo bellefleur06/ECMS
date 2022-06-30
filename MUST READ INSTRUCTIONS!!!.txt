@@ -1,0 +1,24 @@
+**Evacuation Center Management System (BETA Version)**
+
+**Developed by tapps**
+
+Database Name: ecms
+
+Index Page: http://localhost/Evacuation-Center-Management-System/index.php
+
+**Admin Login Details**
+
+Username: admin
+Password: admin
+
+**Staff Login Details**
+
+Username: staff
+Password: staff
+
+**Features You Can Add**
+
+Reports
+
+**If you want to see how the crud functionalities work just open the actions.php file inside the includes folder**
+ 

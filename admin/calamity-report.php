@@ -14,7 +14,7 @@ if (!isset($_SESSION['id'])) {
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Evacuation Center Management System</title>
+   <title>Reports</title>
    <!-- Font Awesome -->
    <link rel="stylesheet" href="../asset/fontawesome/css/all.min.css">
    <link rel="stylesheet" href="../asset/css/adminlte.min.css">
@@ -84,7 +84,7 @@ if (!isset($_SESSION['id'])) {
                               <thead>
                                  <tr>
                                     <th>Calamity</th>
-                                    <th>No. of Affected Citizen</th>
+                                    <th>No. of Affected Evacuees</th>
                                  </tr>
                               </thead>
                               <tbody>
@@ -120,6 +120,9 @@ if (!isset($_SESSION['id'])) {
                         <div class="card-body">
                            <div class="chart chart-lg">
                               <canvas id="chartjs-pie"></canvas>
+                              <center>
+                                 <p>Note: Pie Chart has only static data</p>
+                              </center>
                            </div>
                         </div>
                      </div>
